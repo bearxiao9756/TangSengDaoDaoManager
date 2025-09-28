@@ -1,4 +1,4 @@
-FROM node:16.20.1 as builder
+FROM node:18 as builder
 WORKDIR /app
 RUN npm config set registry https://registry.npmmirror.com
 RUN npm install pnpm -g
