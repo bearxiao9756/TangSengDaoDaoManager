@@ -107,10 +107,14 @@ const onLoginClick = async (formEl: FormInstance | undefined) => {
     if (valid) {
       loginPost(loginForm)
         .then((res: any) => {
+          console.log("登陆成功");
+          console.log(res);
+          
           loginButLoading.value = false;
           userStore.setToken(res.token);
           userStore.setUserInfo(res);
           router.push(HOME_URL);
+          console.log("登陆成功")
           ElMessage.success('登录成功');
         })
         .catch(err => {
