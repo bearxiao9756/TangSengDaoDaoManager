@@ -21,7 +21,7 @@ import NProgress from '@/utils/nprogress';
  * @param meta.isKeepAlive ==> 是否缓存
  * */
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/app3/'),
   routes,
   strict: false,
   scrollBehavior: () => ({ left: 0, top: 0 })
