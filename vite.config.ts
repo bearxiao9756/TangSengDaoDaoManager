@@ -60,8 +60,8 @@ const getPlugins = (_command?: string) => {
 };
 
 export default defineConfig(({ command }: ConfigEnv): UserConfig => {
-    // 🚨 核心改动：从环境变量中读取 base URL，默认为 '/'
-  const BASE_URL = process.env.VITE_BASE_URL || '/';
+  // 🚨 核心改动：从环境变量中读取 base URL，默认为 '/'
+  const BASE_URL = process.env.VITE_BASE_URL === undefined || process.env.VITE_BASE_URL === '' ? './' : process.env.VITE_BASE_URL;
   return {
     base:BASE_URL,
     resolve: {
