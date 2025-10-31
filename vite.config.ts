@@ -38,7 +38,7 @@ const getPlugins = (_command?: string) => {
     createHtmlPlugin({
       inject: {
         data: {
-          title: '辰韬咨询后台管理',
+          title: '坤元服务后台管理',
           injectScript: process.env.IS_CONFIG ? `<script src="/tsdd-config.js"></script>` : null
         }
       }

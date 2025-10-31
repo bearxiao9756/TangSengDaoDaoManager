@@ -1,6 +1,6 @@
 <template>
   <div class="footer flex-center">
-    <a href="https://www.baidu.com" target="_blank"> 2023 © 辰韬咨询. </a>
+    <a href="https://www.baidu.com" target="_blank"> 2023 © 坤元服务. </a>
   </div>
 </template>
 
