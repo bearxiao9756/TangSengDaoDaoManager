@@ -1,6 +1,6 @@
 <template>
   <div class="footer flex-center">
-    <a href="https://www.baidu.com" target="_blank"> 2023 © 上海华年. </a>
+    <a href="https://www.baidu.com" target="_blank"> 2023 © 华安定增. </a>
   </div>
 </template>
 
