@@ -1,6 +1,6 @@
 <template>
   <div class="footer flex-center">
-    <a href="https://www.baidu.com" target="_blank"> 2023 © 汇同清算. </a>
+    <a href="https://www.baidu.com" target="_blank"> 2023 © 九威清算. </a>
   </div>
 </template>
 
